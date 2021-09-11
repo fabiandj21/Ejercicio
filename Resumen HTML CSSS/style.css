@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+body{
+  min-height: 100vh;
+  background: url(fondo1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.main h1{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  text-align:center;
+  line-height: 30px;
+}
+
+
